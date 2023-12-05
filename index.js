@@ -1,4 +1,4 @@
-import app from './src/server';
+import app from './src/server.js';
 const port = normalizaPort(process.env.PORT || '3000');
 function normalizaPort(val) {
     const port = parseInt(val, 10);
